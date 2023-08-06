@@ -7,6 +7,7 @@ body {
     background-image: url(friend5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
@@ -28,7 +29,7 @@ h1 {
     /* animation: slideInFromLeft 1s ease-in-out 0.5s forwards; */
 }
 h2{
-    color: deepskyblue;
+    color: rgb(128, 255, 0);
     font-family:cursive;
 }
 
@@ -40,7 +41,7 @@ h2{
 
 .wish {
     font-size: 20px;
-    color: #060606;
+    color: #fffdfd;
     margin-bottom: 10px;
     opacity: 0;
 }
