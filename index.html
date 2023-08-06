@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <audio id="bg-music" loop>
+        <source src="Musthafa.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
     <div class="container">
         <h1>Happy Friendship Day!</h1>
         <div class="wishes-container">
@@ -16,6 +20,17 @@
             <div class="wish">From</div>
             <div class="wish"><h2>Jagadeesh</h2></div>
         </div>
+       
     </div>
+    <script>
+        // Function to play background music
+        function playBackgroundMusic() {
+            const bgMusic = document.getElementById('bg-music');
+            bgMusic.play();
+        }
+
+        // Play background music when the page loads
+        window.onload = playBackgroundMusic;
+    </script>
 </body>
 </html>
