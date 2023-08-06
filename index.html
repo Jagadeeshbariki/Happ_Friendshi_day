@@ -28,9 +28,9 @@
             const bgMusic = document.getElementById('bg-music');
             bgMusic.play();
         }
-
-        // Play background music when the page loads
-        window.onload = playBackgroundMusic;
+    
+        // Play background music when the user clicks anywhere on the page
+        document.addEventListener('click', playBackgroundMusic);
     </script>
 </body>
 </html>
